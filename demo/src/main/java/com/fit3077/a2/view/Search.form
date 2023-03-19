@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.fit3077.a2.view.Search">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="7" column-count="17" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="916" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="dca11" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="2" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Search for a facility:"/>
+        </properties>
+      </component>
+      <component id="ff748" class="javax.swing.JTextField" binding="searchTextField">
+        <constraints>
+          <grid row="0" column="4" row-span="2" col-span="11" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="f6b94" class="javax.swing.JLabel" binding="facilityTwoSuburb">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="b8047" class="javax.swing.JLabel" binding="facilityFourSuburb">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="748c5" class="javax.swing.JLabel" binding="facilityThreeSuburb">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="f1166" class="javax.swing.JLabel" binding="facilityOneSuburb">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="d9a92" class="javax.swing.JButton" binding="searchButton">
+        <constraints>
+          <grid row="0" column="15" row-span="2" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Search"/>
+        </properties>
+      </component>
+      <component id="d7d8f" class="javax.swing.JLabel" binding="typeOfFacilityOne">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="f4cea" class="javax.swing.JLabel" binding="onsiteBookingFacilityOne">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="8c33e" class="javax.swing.JLabel" binding="isOpenFacilityOne">
+        <constraints>
+          <grid row="3" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="2736e" class="javax.swing.JLabel" binding="waitingTimesFacilityOne">
+        <constraints>
+          <grid row="3" column="11" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="22f38" class="javax.swing.JLabel" binding="typeOfFacilityTwo">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="fd85f" class="javax.swing.JLabel" binding="onsiteBookingFacilityTwo">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="ccb4e" class="javax.swing.JLabel" binding="isOpenFacilityTwo">
+        <constraints>
+          <grid row="4" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="d8900" class="javax.swing.JLabel" binding="waitingTimesFacilityTwo">
+        <constraints>
+          <grid row="4" column="14" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="3eeb8" class="javax.swing.JLabel" binding="typeOfFacilityThree">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="86d91" class="javax.swing.JLabel" binding="onsiteBookingFacilityThree">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="28128" class="javax.swing.JLabel" binding="isOpenFacilityThree">
+        <constraints>
+          <grid row="5" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="90a26" class="javax.swing.JLabel" binding="typeOfFacilityFour">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="96c89" class="javax.swing.JLabel" binding="onsiteBookingFacilityFour">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="43c90" class="javax.swing.JLabel" binding="isOpenFacilityFour">
+        <constraints>
+          <grid row="6" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="594ad" class="javax.swing.JLabel" binding="waitingTimesFacilityFour">
+        <constraints>
+          <grid row="6" column="11" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="c566b" class="javax.swing.JButton" binding="backButton">
+        <constraints>
+          <grid row="6" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="4c0ec" class="javax.swing.JLabel" binding="waitingTimesFacilityThree">
+        <constraints>
+          <grid row="5" column="11" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="1bb54" class="javax.swing.JLabel" binding="facilityOneName">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="39610" class="javax.swing.JLabel" binding="facilityTwoName">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="93cc9" class="javax.swing.JLabel" binding="facilityThreeName">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="ba715" class="javax.swing.JLabel" binding="facilityFourName">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="c1d9c" class="javax.swing.JLabel" binding="facilityOneOnSiteTesting">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="287e6" class="javax.swing.JLabel" binding="facilityTwoOnSiteTesting">
+        <constraints>
+          <grid row="4" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="5f820" class="javax.swing.JLabel" binding="facilityThreeOnSiteTesting">
+        <constraints>
+          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="b87af" class="javax.swing.JLabel" binding="facilityFourOnSiteTesting">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="48bbb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Suburb"/>
+        </properties>
+      </component>
+      <component id="3acf3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="2667f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Facility Type"/>
+        </properties>
+      </component>
+      <component id="697f6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="On Site Booking?"/>
+        </properties>
+      </component>
+      <component id="5702a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="On Site Testing?"/>
+        </properties>
+      </component>
+      <component id="97b6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Is Facility Open?"/>
+        </properties>
+      </component>
+      <component id="fc704" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Waiting Time"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
